@@ -4,7 +4,7 @@
   --paper: #f8f5ef;
   --panel: #ffffff;
   --line: #ded6cc;
-  --wine: #9b174d;
+  --wine: #d80073;
   --plum: #3b2035;
   --sage: #5e7c67;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .hero__copy .eyebrow {
-  color: #ff4a9a;
+  color: #d80073;
 }
 
 h1,
@@ -343,7 +343,7 @@ figcaption {
 }
 
 .footer strong {
-  color: #ff4a9a;
+  color: #d80073;
   font-size: 14px;
 }
 
