@@ -15,7 +15,7 @@ html,
 body {
   margin: 0;
   min-height: 100%;
-  background: #141114;
+  background: #15100c;
   color: #fff;
   font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -31,7 +31,7 @@ body {
   width: 210mm;
   height: 297mm;
   overflow: hidden;
-  background: #050405;
+  background: #080604;
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
   isolation: isolate;
 }
@@ -44,7 +44,7 @@ body {
   height: calc(100% + 36mm);
   object-fit: cover;
   object-position: 54% 48%;
-  filter: blur(6px) brightness(0.96) contrast(1.03) saturate(1.04);
+  filter: blur(6px) brightness(1.02) contrast(1.06) saturate(0.72) sepia(0.28);
   transform: scale(1.02);
 }
 
@@ -53,10 +53,10 @@ body {
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(180deg, rgba(2, 2, 2, 0.86) 0, rgba(2, 2, 2, 0.76) 28mm, rgba(2, 2, 2, 0.16) 58%, rgba(2, 2, 2, 0.3) 100%),
-    radial-gradient(circle at 66% 44%, rgba(255, 239, 220, 0.18), transparent 45%),
-    radial-gradient(circle at 18% 43%, rgba(216, 0, 115, 0.25), transparent 32%),
-    linear-gradient(110deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.25) 48%, rgba(0, 0, 0, 0.08));
+    linear-gradient(180deg, rgba(10, 6, 3, 0.82) 0, rgba(18, 10, 4, 0.68) 28mm, rgba(92, 57, 32, 0.2) 58%, rgba(35, 19, 8, 0.34) 100%),
+    radial-gradient(circle at 66% 44%, rgba(196, 137, 78, 0.22), transparent 44%),
+    radial-gradient(circle at 18% 43%, rgba(143, 86, 43, 0.16), transparent 34%),
+    linear-gradient(110deg, rgba(17, 8, 2, 0.54), rgba(35, 19, 9, 0.24) 48%, rgba(61, 35, 17, 0.1));
 }
 
 .masthead {
